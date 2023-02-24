@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Grand+Hotel&family=Poppins:wght@600&display=swap');
+
+p{
+    font-family: 'Cedarville Cursive', cursive;
+
+}
+
+div{
+    background: rgb(0, 255, 72);
+    font-size: 30px;
+    font-weight: bold;
+    border:2px solid black;
+    width: 350px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 0 10px 20px rebeccapurple;
+    border-radius: 20px;
+}
+
+.static{
+    position: static;
+    top:40px;
+}
+
+.relative{
+   position: relative;
+   width: 50%;
+   height: 400px;
+   left:400px;
+   top:30px;
+}
+
+/* .ancestor{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 500px;
+} */
+
+.absolute{
+    position:absolute;
+    left:400px;
+}
+
+.fixed{
+    width: 100%;
+    position: fixed;
+    top:0px;
+   
+}
+
+.sticky{
+
+
+
+    position: sticky;
+    top:20px;
+}
