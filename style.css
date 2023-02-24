@@ -1,58 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Grand+Hotel&family=Poppins:wght@600&display=swap');
-
-p{
-    font-family: 'Cedarville Cursive', cursive;
-
+body{
+    margin:0;
 }
 
-div{
-    background: rgb(0, 255, 72);
-    font-size: 30px;
-    font-weight: bold;
-    border:2px solid black;
-    width: 350px;
+.header{
+    height: 100px;
+    background-color: rgb(132, 132, 255);
     text-align: center;
-    margin: 20px 0px 20px 0px;
-    box-shadow: 0 10px 20px rebeccapurple;
-    border-radius: 20px;
+    
 }
 
-.static{
-    position: static;
-    top:40px;
+
+.header h1{
+    margin-top: 0;
+    padding: 20px;
 }
 
-.relative{
-   position: relative;
-   width: 50%;
-   height: 400px;
-   left:400px;
-   top:30px;
-}
-
-/* .ancestor{
-    width: 500px;
-    height: 400px;
-    position: relative;
-    left: 500px;
-} */
-
-.absolute{
-    position:absolute;
-    left:400px;
-}
-
-.fixed{
+.menu{
+    margin:0;
+    padding: 0;
     width: 100%;
-    position: fixed;
-    top:0px;
-   
+    background-color: rgb(229, 154, 203);
+    top:5px;
+    position: sticky;
 }
 
-.sticky{
+.menu li{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+
+.menu li:hover,.menu li:focus{
+    background-color: coral;
+}
 
 
+.menu a{
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+}
 
-    position: sticky;
-    top:20px;
+.container{
+    border: 2px solid blue;
+    margin:10px;
+    padding:0 20px;
 }
