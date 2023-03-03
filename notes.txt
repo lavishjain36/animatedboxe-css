@@ -1,0 +1,84 @@
+Css Animation :
+Css animation:
+It is technique that is used to add movement and visual effect to the design using css.
+Css animation allows you to use or animate the properties html element 
+size,position,color or opacity.
+
+U need to create or define keyframes,which can be used on how an element should move or rotate or change over time.
+
+Keyframes: 
+@keyframe {
+//percentage of the animation at which keyframe should occur.
+
+}
+
+=>You can apply an animation to an element using animation property.
+duration,timing function,delay,iteration.
+
+Properties:
+animation-name=>specify the name o fthe keyframe animation that you want to use.
+animation-name
+2.
+animation-duration:specify and tell you the duration of animation in milli seconds.
+
+animation-duration:time_value;
+
+
+3.animation-timing-function:
+
+linear,ease,ease-in,ease-out,ease-in-out
+
+4.animation-delay:timein milliscond.
+it will delay before animation starts in millisecond
+
+
+5.animation-iteration-count:number|imfinite;
+it will run animation for a number of times that you played
+
+6.animation-direction:normal|reverse|alternate|alternate-reverse;
+play animation forward or in backward direction.
+
+
+7.animation-fill-mode:none|forwards|backward|both
+what stye should be applied to element when animation not playing
+
+
+
+8.animation-play-state:running|paused
+
+
+keyframe->defines animation itself, that tell you the animation at different points during play time.
+@keyframe
+
+
+Transition:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
